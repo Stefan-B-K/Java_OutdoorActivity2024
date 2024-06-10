@@ -49,8 +49,8 @@
 + Implemented InputCSV throug "com.opencsv" reader (default Scanner and BufferReader
 + won't parse the csv correctly.
 ````
+![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot2.png)
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot3.png)
-![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot4.png)
 
 ## Допълнение 2
 Програмата да може да се стартира в наблюдаващ режим, изпълнявайки се продължително време, тоест ще е вид service. През определен интервал ще извлича прогнозата за времето. При достигане на определени критерии, ще изпраща мейл. Критериите отново потребителят ги задава чрез файл. Например, да прати мейл ако за следващия уикенд има подходящи условия за даден спорт в определен часови интервал. Опционално може да са и всички почивни дни. За целта [този](https://bulgaria.workingdays.org/setup) или подобен сървис би ви свършил работа.
