@@ -44,10 +44,9 @@
 
 ````diff
 + ===================================== SOLUTION ==================================== 
-+ Implemented second interchangable input (through DataInputer interface):
 + CSV file format for the inputs, by my own design
-+ Implemented InputCSV throug "com.opencsv" reader (default Scanner and BufferReader
-+ won't parse the csv correctly.
++ Implemented second InputCSV interchangable input (through DataInputer interface)
++ and "com.opencsv" reader (default Scanner and BufferReader won't parse the csv correctly)
 ````
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot2.png)
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot3.png)
