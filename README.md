@@ -68,3 +68,12 @@
 ## Допълнение 3
 При откриване на подходящи условия за спорт, програмата трябва да създаде събитие в Google Calendar.
 Детайлите около събитието можете сами да ги определите - създаване/редактиране/изтриване на събитие, припокриващи се събития, цвят, участници, местоположение, нотификация и т.н.
+
+````diff
++ ===================================== SOLUTION ==================================== 
++ Running as an app on the client's device, asking for permission (OAuth2)
++ and creating calendar for the app, where new events are scheduled.
++ On an hourly basis the app checks the weather API for changes and
++ eventually updates the calendar events and sends mail notification.
+````
+![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot6.png)
