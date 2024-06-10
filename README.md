@@ -33,9 +33,10 @@
 За нуждите на задачата можете да ползвате, която и да е безплатна уеб услуга, която предоставя прогноза за времето. Една от тях е https://www.weatherapi.com/. Разгледайте и разучете какво Ви предоставя API на секция Forecast API.
 
 ````diff
-+ Implemented two interchangable weather forecast services (through ForecastService interface) - with WehaterAPI and OpenWeatherMap API
++ Implemented two interchangable weather services (through ForecastService interface):
++ with WehaterAPI and OpenWeatherMap API
 ````
-![](https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot1.png)
+![](https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot1.png https://github.com/Stefan-B-K/Java_ImageBlur2024/blob/main/src/main/resources/images/Screenshot2.png)
 
 ## Допълнение 1
 Потребителят да може да дефинира файл (ръчно), където да описва условията за различни видове спорт. Форматът на този файл го определете вие. Изходът на програмата вече ще извежда подходящите интервали за всеки вид спорт.
