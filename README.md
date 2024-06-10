@@ -54,19 +54,14 @@
 ## Допълнение 2
 Програмата да може да се стартира в наблюдаващ режим, изпълнявайки се продължително време, тоест ще е вид service. През определен интервал ще извлича прогнозата за времето. При достигане на определени критерии, ще изпраща мейл. Критериите отново потребителят ги задава чрез файл. Например, да прати мейл ако за следващия уикенд има подходящи условия за даден спорт в определен часови интервал. Опционално може да са и всички почивни дни. За целта [този](https://bulgaria.workingdays.org/setup) или подобен сървис би ви свършил работа.
 
-### Изпращане на мейл
-Може да използвате стандартния SMTP клиент за Java като си добавите тази зависимост:
-```
-implementation 'com.sun.mail:jakarta.mail:2.0.1'
-```
-
-#### През Gmail
-Ако не искате да създадете OAuth2 оторизация, по простият вариант е да генерирате парола за приложение. Имайте предвид, че ще трябва да създадете парола, с която да достъпите вашия личен акаунт, затова внимавайте да не я къмитнете в репозиторито. За малко по-голяма сигурност може да направите това допълнение заедно с допълнение 3. Използвайки вашия акаунт, ще пращате мейли от ваше име. За да настроите парола за вашия клиент, вижте https://support.google.com/mail/answer/185833?hl=en Базови настройки:
-
-- SMTP host - smtp.gmail.com
-- port - 25/587/465
-
-Ако използвате порт 465 в настройките на Java mail трябва да сложите `mail.smtp.ssl.enable` - true, в противен случай `mail.smtp.starttls.enable` - true
+````diff
++ ===================================== SOLUTION ==================================== 
++ Continuous running / automation mode implemented through two interchangable services:
++ The standard Java Executors.newSingleThreadScheduledExecutor() singleton 
++ and the 'org.quartz-scheduler' cron job runner;
++ The mail notification implemented through 'com.sun.mail:jakarta.mail' service
++ using two interchangable SMTP configurations: <a href="https://mailtrap.io">Mailtrap</a> and <a href="https://mail.google.com">Gmail</a>
+````
 
 ## Допълнение 3
 При откриване на подходящи условия за спорт, програмата трябва да създаде събитие в Google Calendar.
