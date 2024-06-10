@@ -28,7 +28,7 @@ public class InputCLI implements DataInputer {
 
         if (city.isEmpty()) return null;
 
-        int daysAheadForecast = 1;
+        int daysAheadForecast = 2;
         Units units = Units.METRIC;
         int minConsecutiveHours = 2;
 

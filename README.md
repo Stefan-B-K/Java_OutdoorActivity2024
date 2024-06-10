@@ -38,10 +38,19 @@
 + with WehaterAPI and OpenWeatherMap API
 ````
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot1.png)
-![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot2.png)
 
 ## Допълнение 1
 Потребителят да може да дефинира файл (ръчно), където да описва условията за различни видове спорт. Форматът на този файл го определете вие. Изходът на програмата вече ще извежда подходящите интервали за всеки вид спорт.
+
+````diff
++ ===================================== SOLUTION ==================================== 
++ Implemented second interchangable input (through DataInputer interface):
++ CSV file format for the inputs, by my own design
++ Implemented InputCSV throug "com.opencsv" reader (default Scanner and BufferReader
++ won't parse the csv correctly.
+````
+![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot3.png)
+![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot4.png)
 
 ## Допълнение 2
 Програмата да може да се стартира в наблюдаващ режим, изпълнявайки се продължително време, тоест ще е вид service. През определен интервал ще извлича прогнозата за времето. При достигане на определени критерии, ще изпраща мейл. Критериите отново потребителят ги задава чрез файл. Например, да прати мейл ако за следващия уикенд има подходящи условия за даден спорт в определен часови интервал. Опционално може да са и всички почивни дни. За целта [този](https://bulgaria.workingdays.org/setup) или подобен сървис би ви свършил работа.

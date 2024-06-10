@@ -6,7 +6,10 @@ import com.istef.OutdoorActivity2024.exceptios.InputException;
 import com.istef.OutdoorActivity2024.exceptios.OutputException;
 import com.istef.OutdoorActivity2024.input.DataInputer;
 import com.istef.OutdoorActivity2024.input.InputCSV;
-import com.istef.OutdoorActivity2024.model.io.*;
+import com.istef.OutdoorActivity2024.model.io.InputData;
+import com.istef.OutdoorActivity2024.model.io.OutputData;
+import com.istef.OutdoorActivity2024.model.io.OutputUserChoice;
+import com.istef.OutdoorActivity2024.model.io.StoreKind;
 import com.istef.OutdoorActivity2024.output.DataOutputer;
 import com.istef.OutdoorActivity2024.output.OutputCLI;
 import com.istef.OutdoorActivity2024.output.OutputGoogleCalendar;
@@ -55,7 +58,7 @@ public class OutdoorActivityApp implements Runnable, Job {
      */
     public OutdoorActivityApp() {
         appConfig();
-        this.dataLoader = new InputCSV(); //  new InputCLI();
+        this.dataLoader =  new InputCSV(); //  new InputCLI();
         this.weatherForecast = new ForecastServiceWeatherApi(); // new ForecastServiceOpenWeatherMap();
 
         if (outputUserChoice == null) {
