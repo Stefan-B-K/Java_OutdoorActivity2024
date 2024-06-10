@@ -19,7 +19,7 @@ import java.util.Date;
  * @see MailService
  */
 public class MailServiceJakarta implements MailService {
-    private static final String FROM = "mailtrap@istef.space";
+    private static final String FROM = "stefan.b.k.dev@gmail.com"; // "mailtrap@istef.space";
     private final JakartaConfig config;
 
     /**

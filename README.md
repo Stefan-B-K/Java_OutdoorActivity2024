@@ -62,6 +62,8 @@
 + The mail notification implemented through 'com.sun.mail:jakarta.mail' service
 + using two interchangable SMTP configurations: ![Mailtrap](https://mailtrap.io) and ![Gmail](https://mail.google.com).
 ````
+![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot4.png)
+![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot5.png)
 
 ## Допълнение 3
 При откриване на подходящи условия за спорт, програмата трябва да създаде събитие в Google Calendar.
