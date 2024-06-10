@@ -68,9 +68,3 @@
 ## Допълнение 3
 При откриване на подходящи условия за спорт, програмата трябва да създаде събитие в Google Calendar.
 Детайлите около събитието можете сами да ги определите - създаване/редактиране/изтриване на събитие, припокриващи се събития, цвят, участници, местоположение, нотификация и т.н.
-
-Полезни линкове за разработване на допълнение 3:
-- https://auth0.com/docs/get-started/auth0-overview
-- https://console.cloud.google.com/
-- https://developers.google.com/workspace/guides/configure-oauth-consent
-- https://developers.google.com/calendar/api/guides/overview
