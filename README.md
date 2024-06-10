@@ -60,7 +60,7 @@
 + The standard Java Executors.newSingleThreadScheduledExecutor() singleton 
 + and the 'org.quartz-scheduler' cron job runner;
 + The mail notification implemented through 'com.sun.mail:jakarta.mail' service
-+ using two interchangable SMTP configurations: ![Mailtrap](https://mailtrap.io) and ![Gmail](https://mail.google.com).
++ using two interchangable SMTP configurations: Mailtrap (https://mailtrap.io) and Gmail (https://mail.google.com).
 ````
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot4.png)
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot5.png)
