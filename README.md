@@ -59,8 +59,8 @@
 + Continuous running / automation mode implemented through two interchangable services:
 + The standard Java Executors.newSingleThreadScheduledExecutor() singleton 
 + and the 'org.quartz-scheduler' cron job runner;
-+ The mail notification implemented through 'com.sun.mail:jakarta.mail' service
-+ using two interchangable SMTP configurations: Mailtrap (mailtrap.io) and Gmail (mail.google.com).
++ The mail notification implemented through 'com.sun.mail:jakarta.mail' service, using
++ two interchangable SMTP configurations: Mailtrap (mailtrap.io) and Gmail (mail.google.com)
 ````
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot4.png)
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot5.png)
