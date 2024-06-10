@@ -1,0 +1,1 @@
+nohup sh OutdoorActivity2024.sh &> OutdoorActivity2024.out &

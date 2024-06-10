@@ -1,0 +1,23 @@
+City,Madrid,,
+Days-ahead forecast,5,,
+"Units: (Metric, Imperial)",Metric,,
+Minimum consecutive days,2,,
+,,,
+* - preferable (not mandatory),,,
+,1,2,3
+Activity / Sport,Federball,Snowboard,Surfing
+"Daytime: (D, N)",D,D,D
+"Day of the Week: (WD, WE)",WE*,WE*,WD*
+"min Temperature, C | F",10,-10,20
+"max Temperature, C | F",30,5,45
+"min Cloud Cover, %",50*,,
+"max Cloud Cover, %",,,
+"max Humidity, %",,,
+"max Rain Chance, %",50,,
+"max Snow Chance, %",,,
+"min Wind Speed, km/h | mph",,,20
+"max Wind Speed, km/h | mph",,40,90
+"max Wind Gust Speed, km/h | mph",15,50,100
+"max Atm Pressure, hPa | inHg",,,
+"min Snowfall, cm",,10,
+"min Visibility, m | ft",,1000,500
