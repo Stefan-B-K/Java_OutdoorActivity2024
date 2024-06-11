@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a386c4-1628-4507-b54d-6fc616a0e8e8" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Screenshot6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,15 +238,7 @@
       <workItem from="1718020803799" duration="8000" />
       <workItem from="1718020843336" duration="1374000" />
       <workItem from="1718022252460" duration="4723000" />
-      <workItem from="1718027050914" duration="544000" />
-    </task>
-    <task id="LOCAL-00011" summary="refactor PersistenceService to store more types">
-      <option name="closed" value="true" />
-      <created>1715697476836</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1715697476836</updated>
+      <workItem from="1718027050914" duration="778000" />
     </task>
     <task id="LOCAL-00012" summary="refactor FilePersistService as singleton;&#10;add OutputGoogleCalendar, GoogleCalendarService, AppCalendar model and CalendarException;">
       <option name="closed" value="true" />
@@ -630,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718027085333</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="final">
+      <option name="closed" value="true" />
+      <created>1718027764813</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1718027764813</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -75,5 +75,7 @@
 + and creating calendar for the app, where new events are scheduled.
 + On an hourly basis the app checks the weather API for changes and
 + eventually updates the calendar events and sends mail notification.
++ Unit Tests with Mockito for the SuitableWeatherService and  
++ for the UpdaterService (using FilePersistService singleton) - 'mockito-inline'.
 ````
 ![](https://github.com/Stefan-B-K/Java_OutdoorActivity2024/blob/main/src/main/resources/images/Screenshot6.png)
