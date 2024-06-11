@@ -1,4 +1,4 @@
-# OutdoorActivity2024 (Project 2/3 of Methodia Workshop / Self-training 2024)
+# OutdoorActivity2024 (Project 2/3 of Methodia 2024 Java 11 Workshop/Self-training)
 
 ## Игра на федербал
 
